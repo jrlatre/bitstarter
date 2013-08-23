@@ -12,7 +12,8 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.set('port', process.env.PORT || 8080);
 
-app.use(express.static(__dirname + '/images'));
+app.use(express.static('/home/ubuntu/bitstarter-ssjs-db/images'));
+//app.use(express.static(__dirname + '/images'));
 // app.use("/images", express.static(__dirname + "/images");
 
 // Render homepage (note trailing slash): example.com/
